@@ -1,6 +1,11 @@
 import './App.css';
+
 import Header from './components/Header';
 import Maincontent from './components/Maincontent';
+import Suporte from './components/Suporte';
+import Experiencia from './components/Experiencia';
+import Footer from './components/Footer';
+import OndeEstamos from './components/OndeEstamos';
 
 function App() {
   return (
@@ -9,6 +14,10 @@ function App() {
           <Header/>
           <Maincontent/>
         </div>
+        <Suporte/>
+        <Experiencia/>
+        <OndeEstamos/>
+        <Footer/>
     </div>
   );
 }

@@ -1,0 +1,123 @@
+.container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tituloDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: transparent;
+}
+.titulo{
+    color: white;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.suporte-container{
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.rightContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagemDiv{
+    filter: drop-shadow(10px 0 50px rgba(4,120,255,62));
+}
+.imgSuporte{
+    width: 480px;
+}
+
+.textoDiv{
+    max-width: 600px;
+}
+.underline{
+    /*background-image: linear-gradient(to right, #2892cf, rgba(50, 161, 226, 0.27));*/
+    text-shadow: rgb(30, 101, 255) 5px 0 30px;;
+}
+.textSuporte{
+    color: white;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.btnConhecer{
+    /* carregamento da fonte */
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* Resto do estilo */
+    font-size: 30px;
+    width: 35vh;
+    height: 8.5vh;
+    border-radius: 50px;
+    cursor:  pointer;
+    color: white;
+    background-color: transparent;
+    background-image: linear-gradient(to right, #106A9E, rgba(50, 161, 226, 0.27));
+    border: none;
+    transition: 0.5s;
+}
+
+.btnConhecer:hover{
+    width: 38vh;
+    height: 9vh;
+    font-size: 32px;
+}
+
+
+
+.quadrado1{
+    position: absolute;
+    z-index: 1;
+    left: 37px;
+    top: 130vh;
+    width: 20vh;
+    height: 20vh;
+    background-color: rgba(79, 96, 155, 0.3);
+}
+.quadrado2{
+    position: absolute;
+    z-index: 1;
+    left: 280px;
+    top: 115vh;
+    width: 20vh;
+    height: 20vh;
+    background-color: rgba(47, 66, 131, 0.3);
+}
+.quadrado3{
+    position: absolute;
+    z-index: 1;
+    left: 37px;
+    top: 190vh;
+    width: 20vh;
+    height: 20vh;
+    background-color: rgba(38, 27, 161, 0.3);
+}
+.quadrado4{
+    position: absolute;
+    z-index: 1;
+    left: 180px;
+    top: 180vh;
+    width: 20vh;
+    height: 20vh;
+    background-color: rgba(79, 96, 155, 0.3);
+}

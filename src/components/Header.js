@@ -20,7 +20,7 @@ function Header() {
         <nav className='menu'>
             <ul className='menuul'>
                 <a href="#"><li className='item'>Quem Somos?</li></a>
-                <a href="#"><li className='item'>Serviços</li></a>
+                <a href="#"><li className='item'>Produtos</li></a>
                 <a href="#"><li className='item'>Contato</li></a>
             </ul>
         </nav>
