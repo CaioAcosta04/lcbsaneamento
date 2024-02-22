@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #141D34;
+}
+.mainContent{
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/images/BACKGROUND1.png');
+    background-size: cover;
+    height: 100vh;
+}

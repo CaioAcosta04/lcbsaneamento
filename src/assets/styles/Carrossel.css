@@ -1,0 +1,10 @@
+.carrossel{
+    width: 400px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(10px 0 50px rgba(4,120,255,62));
+}

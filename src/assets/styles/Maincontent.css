@@ -1,0 +1,61 @@
+.maincontent{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftContent{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.rightContent{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.slogan{
+    max-width: 666px;
+}
+.blue{
+    color: #3793FF;
+}
+.slogan-text{
+    /* carregamento da fonte */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    /* Resto do estilo */
+    color: white;
+    font-size: 80px;
+}
+.btnCatalogo{
+    /* carregamento da fonte */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    /* Resto do estilo */
+    font-size: 36px;
+    width: 35vh;
+    height: 8.5vh;
+    border-radius: 50px;
+    cursor:  pointer;
+    color: white;
+    background-image: linear-gradient(to right, #226AF4, #173565);
+    border: none;
+    transition: 0.5s;
+}
+.btnCatalogo:hover{
+    width: 38vh;
+    height: 10vh;
+    color: rgb(202, 201, 201);
+    font-size: 38px;
+}
