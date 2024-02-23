@@ -3,7 +3,7 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    margin-top: 5vh;
+    padding-top: 10vh;
 }
 .leftContent{
     display: flex;

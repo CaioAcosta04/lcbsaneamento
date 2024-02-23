@@ -3,6 +3,11 @@
     width: 100%;
     justify-content: space-between;
     margin-top: 5px;
+    position: absolute;
+    top: 2vh;
+}
+.homeLink {
+    text-decoration: none;
 }
 .logo{
     display: flex;

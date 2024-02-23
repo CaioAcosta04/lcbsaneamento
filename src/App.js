@@ -1,22 +1,21 @@
 import './App.css';
 
 import Header from './components/Header';
-import Maincontent from './components/Maincontent';
-import Suporte from './components/Suporte';
-import Experiencia from './components/Experiencia';
 import Footer from './components/Footer';
-import OndeEstamos from './components/OndeEstamos';
+import Home from './pages/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import QuemSomos from './pages/QuemSomos';
 
 function App() {
   return (
     <div className="App">
-        <div className="mainContent">
-          <Header/>
-          <Maincontent/>
-        </div>
-        <Suporte/>
-        <Experiencia/>
-        <OndeEstamos/>
+        <Header/>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/quemsomos' element={<QuemSomos/>}/>
+          </Routes>
+        </BrowserRouter>
         <Footer/>
     </div>
   );

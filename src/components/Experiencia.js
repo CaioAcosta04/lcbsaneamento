@@ -19,6 +19,8 @@ function Experiencia() {
         </div>
         <div className="quadrado1XP"></div>
         <div className="quadrado2XP"></div>
+        <div className="quadrado3XP"></div>
+        <div className="quadrado4XP"></div>
     </div>
   )
 }

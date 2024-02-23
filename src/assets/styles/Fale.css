@@ -1,0 +1,60 @@
+.faleConoscoDiv{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -30vh;
+}
+.conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tituloFale{
+    color: white;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 5vh;
+    margin-bottom: 5vh;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.itemFale{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+
+    color: white;
+    font-size: 25px;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+}
+.btnSocial{
+    background-color: #D9D9D9;
+    border: none;
+    height: 5vh;
+    width: 5vh;
+    margin: 0 0 2vh 2vh;
+    border-radius: 50%;
+    padding: auto;
+}

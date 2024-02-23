@@ -8,6 +8,7 @@ function Header() {
   return (
     <div className="header">
 
+        <a href="/" className='homeLink'>
         <div className="logo">
             <div className="image-logo-div">
                 <img className='image-logo' src={logo} alt="Logo LCB" />
@@ -16,10 +17,11 @@ function Header() {
                 <p className='texto-logo'>LCB Saneamento</p>
             </div>
         </div>
+        </a>
 
         <nav className='menu'>
             <ul className='menuul'>
-                <a href="#"><li className='item'>Quem Somos?</li></a>
+                <a href="quemsomos"><li className='item'>Quem Somos?</li></a>
                 <a href="#"><li className='item'>Produtos</li></a>
                 <a href="#"><li className='item'>Contato</li></a>
             </ul>
