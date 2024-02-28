@@ -16,12 +16,12 @@ function Suporte() {
                 <img className='imgSuporte' src={imagem} alt="Imagem equipamentos LCB" />
             </div>
         </div>
-        <div className="rightContent">
+        <div className="rightContentt">
             <div className="textoDiv">
                 <p className='textSuporte'>Nosso histórico e experiência nos permitem oferecer um atendimento personalizado, de acordo com suas necessidades. <p className='underline'>Temos tudo que você precisa para saneamento.</p></p>
             </div>
             <div className="botaoDiv">
-                <button className="btnConhecer">CONHECER</button>
+                <a href="quemsomos"><button className="btnConhecer">CONHECER</button></a>
             </div>
         </div>
     </div>

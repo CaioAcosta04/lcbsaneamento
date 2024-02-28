@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -30vh;
+    margin-top: -10vh;
+    background-image: linear-gradient(to bottom, #141D34, #000000);
 }
 .conteudo{
     width: 100%;
@@ -18,8 +19,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
-    margin-left: 5vh;
-    margin-bottom: 5vh;
+    text-align: center;
 }
 .infos{
     display: flex;
@@ -38,23 +38,54 @@
     font-size: 25px;
 }
 .botoes{
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .linkSocial{
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+.btnSocial{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: auto;
-}
-.btnSocial{
     background-color: #D9D9D9;
     border: none;
     height: 5vh;
     width: 5vh;
-    margin: 0 0 2vh 2vh;
     border-radius: 50%;
-    padding: auto;
+    transition: 0.5s;
+}
+.btnSocial:hover{
+    cursor: pointer;
+    width: 5.5vh;
+    height: 5.5vh;
+}
+.linkWhatsapp{
+    text-decoration: none;
+}
+.btnWhatsapp{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #88EA92;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+
+    color: black;
+    font-size: 35px;
+}
+.pWhatsapp{
+    margin-left: 3vh;
 }

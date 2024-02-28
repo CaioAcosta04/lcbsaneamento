@@ -1,10 +1,18 @@
-.carrossel{
-    width: 400px;
-    height: 300px;
-    background-color: aliceblue;
-    border-radius: 30px;
+.Carrossel{
+    width: 60vh;
+    height: 60vh;
+    margin-top: 10vh;
+    margin-right: 10vh;
+}
+.card{
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(10px 0 50px rgba(4,120,255,62));
+    background-color: white;
+    border-radius: 30px;
+}
+.imgCard{
+    width: auto;
+    height: 50vh;
+    margin-left: 5vh;
 }

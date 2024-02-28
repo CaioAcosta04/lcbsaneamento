@@ -16,7 +16,7 @@ function Maincontent() {
             </div>
         </div>
         <div className="rightContent">
-                <Carrossel/>
+            <Carrossel/>
         </div>
     </div>
   )
