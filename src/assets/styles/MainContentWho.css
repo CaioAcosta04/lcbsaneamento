@@ -1,0 +1,48 @@
+.mainContentWho{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-image: url('../images/BACKGROUND1.png');
+    background-size: cover;
+}
+.infosWho{
+    margin-left: 10vh;
+    display: flex;
+    position: absolute;
+    margin-top: 20vh;
+}
+
+.divLogo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logoWho{
+    width: 100%;
+}
+.divTitle{
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+.titleWho{
+    color: white;
+    font-size: 13vh;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+
+    padding: 0;
+    margin: 0;
+}
+.blueTitle{
+    margin-left: 3vh;
+    display: flex;
+    color: #3793FF;
+}

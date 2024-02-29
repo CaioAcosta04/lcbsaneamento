@@ -37,7 +37,7 @@
 }
 .menuul{
     display: flex;
-    width: 400px;
+    width: 70vh;
     justify-content: space-around;
     align-items: center;
 }

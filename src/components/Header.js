@@ -21,9 +21,10 @@ function Header() {
 
         <nav className='menu'>
             <ul className='menuul'>
+                <a href="/"><li className='item'>Home</li></a>
                 <a href="quemsomos"><li className='item'>Quem Somos?</li></a>
-                <a href="#"><li className='item'>Produtos</li></a>
-                <a href="#"><li className='item'>Contato</li></a>
+                <a href="produtos"><li className='item'>Produtos</li></a>
+                <a href="contato"><li className='item'>Contato</li></a>
             </ul>
         </nav>
     </div>

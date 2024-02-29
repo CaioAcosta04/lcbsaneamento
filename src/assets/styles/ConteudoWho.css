@@ -1,0 +1,97 @@
+.conteudoWho{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to bottom, #141D34, black);
+}
+.leftContentWho{
+    height: 100%;
+    width: 20%;
+    border-right: 1px solid #293C6B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.itemLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleLeft{
+    color: white;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0;
+}
+.subtitleLeft{
+    color: white;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+
+
+.rightContentWho{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textoContent{
+    width: 70%;
+}
+.textoContentp{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.itensContent{
+    color: white;
+    margin-top: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.itemContent{
+    width: 25vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleItem{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+.textItem{
+    text-align: center;
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
