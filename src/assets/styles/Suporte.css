@@ -59,31 +59,11 @@
     "slnt" 0;
 }
 
-.btnConhecer{
-    /* carregamento da fonte */
-    font-family: "Arvo", serif;
-    font-weight: 400;
-    font-style: normal;
-    /* Resto do estilo */
-    font-size: 30px;
-    width: 35vh;
-    height: 8.5vh;
-    border-radius: 50px;
-    cursor:  pointer;
-    color: white;
-    background-color: transparent;
-    background-image: linear-gradient(to right, #106A9E, rgba(50, 161, 226, 0.27));
-    border: none;
-    transition: 0.5s;
-}
-
 .btnConhecer:hover{
     width: 38vh;
     height: 9vh;
     font-size: 32px;
 }
-
-
 
 .quadrado1{
     position: absolute;

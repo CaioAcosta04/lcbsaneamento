@@ -1,9 +1,9 @@
 import React from 'react'
 
-import MainContentWho from '../components/MainContentWho';
-import ConteudoWho from '../components/ConteudoWho';
+import MainContentWho from '../../components/MainContentWho';
+import ConteudoWho from '../../components/ConteudoWho';
 
-import '../assets/styles/QuemSomos.css';
+import '../../assets/styles/QuemSomos.css';
 
 function QuemSomos() {
   return (

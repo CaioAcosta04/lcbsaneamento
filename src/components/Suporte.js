@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../assets/styles/Suporte.css';
 import imagem from '../assets/images/imagemSuporte.jpg';
+import SampleButton from './SampleButton';
 
 function Suporte() {
   return (
@@ -21,7 +22,7 @@ function Suporte() {
                 <p className='textSuporte'>Nosso histórico e experiência nos permitem oferecer um atendimento personalizado, de acordo com suas necessidades. <p className='underline'>Temos tudo que você precisa para saneamento.</p></p>
             </div>
             <div className="botaoDiv">
-                <a href="quemsomos"><button className="btnConhecer">CONHECER</button></a>
+                <SampleButton link='conhecer' text='CONHECER'/>
             </div>
         </div>
     </div>
