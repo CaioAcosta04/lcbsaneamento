@@ -5,7 +5,7 @@ import ContentContato from '../../components/ContentContato'
 function Contato() {
   return (
     <div className="contactPage">
-      <MainContentComp title='Nosso Contato'/>
+      <MainContentComp logo={true} title='Nosso Contato'/>
       <ContentContato/>
     </div>
   )
