@@ -1,0 +1,39 @@
+.menuDiv{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: auto;
+}
+.hideMenuUl{
+    border-radius: 20px;
+    z-index: 2;
+    position: absolute;
+    height: auto;
+    background-color: rgba(20, 29, 52, 0.95);
+    padding: 0;
+    width: 20vh;
+    border: none;
+}
+
+.hideMenuItem{
+    color: white;
+    width: 100%;
+    list-style: none;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.hideMenuItem:hover{
+    cursor: pointer;
+    background-color: rgba(32, 48, 87, 0.95);
+}

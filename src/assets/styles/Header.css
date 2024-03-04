@@ -63,3 +63,24 @@
     font-style: normal;
     font-variation-settings: "slnt" 0;
 }
+
+.divProdutos{
+    padding: 0;
+    margin: 0;
+}
+
+.produtoItem{
+    align-items: center;
+    text-decoration: none;
+    color: #C9E2E8;
+    font-size: 18px;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 16px;
+}
+.produtoItem:hover{
+    background-color: #2536612c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

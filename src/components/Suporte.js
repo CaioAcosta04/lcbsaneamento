@@ -22,7 +22,7 @@ function Suporte() {
                 <p className='textSuporte'>Nosso histórico e experiência nos permitem oferecer um atendimento personalizado, de acordo com suas necessidades. <p className='underline'>Temos tudo que você precisa para saneamento.</p></p>
             </div>
             <div className="botaoDiv">
-                <SampleButton link='conhecer' text='CONHECER'/>
+                <SampleButton link='quemsomos' text='CONHECER'/>
             </div>
         </div>
     </div>
