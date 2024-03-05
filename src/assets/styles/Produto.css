@@ -1,0 +1,21 @@
+.titleProduct{
+    color: white;
+    font-size: 13vh;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30vh;
+    margin-left: 10vh;
+}
+
+.imagemProdutoAtual{
+    width: 60vh;
+}

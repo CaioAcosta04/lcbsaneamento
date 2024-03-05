@@ -1,0 +1,47 @@
+.itemProduto{
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.cardDiv{
+    background-color: white;
+    margin: 10vh 5vh 10vh 5vh;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 2vh;
+    transition: 0.5s;
+}
+.cardDiv:hover{
+    opacity: 0.2;
+}
+.titleCard{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+.imgProduto{
+    width: 30vh;
+    border-radius: 30px;
+}
+.btnSaibaMaisDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgb(223, 226, 228);
+}
+
+.aProduto{
+    text-decoration: none;
+    color: black;
+}

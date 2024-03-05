@@ -1,3 +1,8 @@
 .produtosPage{
-    height: 80vh;
+    height: auto;
+}
+.cardsProdutosDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }

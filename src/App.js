@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import QuemSomos from './pages/QuemSomos/QuemSomos';
 import Produtos from './pages/Produtos/Produtos';
 import Contato from './pages/Contato/Contato';
+import Produto from './pages/Produtos/produto/produto';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/quemsomos' element={<QuemSomos/>}/>
             <Route path='/produtos/:categoria' element={<Produtos/>}/>
             <Route path='/contato' element={<Contato/>}/>
+            <Route path='/produto/:produto' element={<Produto/>}/>
           </Routes>
         </BrowserRouter>
         <Footer/>
