@@ -1,6 +1,11 @@
+.produtoPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .titleProduct{
     color: white;
-    font-size: 13vh;
+    font-size: 11vh;
 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -15,7 +20,32 @@
     top: 30vh;
     margin-left: 10vh;
 }
-
+.produtosInfos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
 .imagemProdutoAtual{
     width: 60vh;
+    border-radius: 4vh;
+}
+.imagemCatalogo{
+    width: 60vh;
+}
+
+.produtoDescription{
+    width: 80vh;
+    height: auto;
+    background-color: rgba(11, 110, 197, 0.212);
+    border-radius: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+.pDescriptionProduct{
+    color: white;
 }

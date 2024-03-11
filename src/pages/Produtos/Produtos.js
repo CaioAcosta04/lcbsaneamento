@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import CardProduto from '../../components/CardProduto';
 
 import Globais from '../../assets/globals/globais';
+import Naoencontrou from '../../components/Naoencontrou';
 
 function Produtos() {
   
@@ -30,6 +31,7 @@ function Produtos() {
           return <></>
         })}
       </div>
+      <Naoencontrou />
     </div>
   )
 }

@@ -29,6 +29,7 @@ function Produto() {
         <h1 className='titleProduct'>{produtoUpper}</h1>
         <div className="produtosInfos">
             <img className='imagemProdutoAtual' src={produtoAtual.imagem} alt={produtoAtual.produto} />
+            <img className='imagemCatalogo' src={produtoAtual.catalogo} alt={'Catálogo '+produtoAtual.produto} />
         </div>
     </div>
   )
