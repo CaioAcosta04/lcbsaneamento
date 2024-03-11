@@ -4,29 +4,20 @@ import { useParams } from 'react-router-dom';
 
 import '../../../assets/styles/Produto.css';
 
-
-import curva11 from '../../../assets/images/ImagesDB/curva11.png';
-import curva22 from '../../../assets/images/ImagesDB/curva22.png';
+import Globais from '../../../assets/globals/globais';
 
 function Produto() {
-    const data = [
-        {id: 1, categoria: 'curvas', produto: 'Curva 11 BB', imagem: curva11},
-        {id: 2, categoria: 'tubos', produto: 'tubo1'},
-        {id: 3, categoria: 'curvas', produto: 'Curva 22 BB', imagem: curva22},
-        {id: 4, categoria: 'tubos', produto: 'tubo2'}
-        ];
-
   let { produto } = useParams();
 
   let produtoUpper = produto.toUpperCase();
   let produtoAtual;
-  let tamanho = data.length;
+  let tamanho = Globais.data.length;
 
   function atribuirProduto(){
     
     for(let i=0; i<tamanho;i++){
-        if(data[i].produto === produto){
-            produtoAtual = data[i];
+        if(Globais.data[i].produto === produto){
+            produtoAtual = Globais.data[i];
         }
     }
   }

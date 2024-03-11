@@ -4,29 +4,22 @@ import MainContentComp from '../../components/MainContentComp';
 import { useParams } from 'react-router-dom';
 import CardProduto from '../../components/CardProduto';
 
-import curva11 from '../../assets/images/ImagesDB/curva11.png';
-import curva22 from '../../assets/images/ImagesDB/curva22.png';
-
-
-
+import Globais from '../../assets/globals/globais';
 
 function Produtos() {
-  const data = [
-    {id: 1, categoria: 'curvas', produto: 'Curva 11 BB', imagem: curva11},
-    {id: 2, categoria: 'tubos', produto: 'tubo1'},
-    {id: 3, categoria: 'curvas', produto: 'Curva 22 BB', imagem: curva22},
-    {id: 4, categoria: 'tubos', produto: 'tubo2'}
-  ];
+  
 
   let { categoria } = useParams();
 
   let categoriaUpper = categoria.toUpperCase();
 
+  console.log(categoria);
+
   return (
     <div className="produtosPage">
       <MainContentComp title={categoriaUpper}/>
       <div className="cardsProdutosDiv">
-        {data.map(function(item){
+        {Globais.data.map(function(item){
           if(item.categoria === categoria){
             return (
               <div className="cardKey" key={item.id}>
