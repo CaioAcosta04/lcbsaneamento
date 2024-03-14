@@ -1,12 +1,13 @@
 .mainContentWho{
-    display: flex;
     width: 100%;
-    height: 50vh;
+    height: 30vw;
     background-image: url('../images/BACKGROUND1.png');
     background-size: cover;
+    display: flex;
+    justify-content: flex-end;
 }
 .infosWho{
-    margin-left: 10vh;
+    margin-left: 8vw;
     display: flex;
     position: absolute;
     margin-top: 20vh;
@@ -29,20 +30,34 @@
 }
 .titleWho{
     color: white;
-    font-size: 13vh;
+    font-size: 10%;
 
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
     font-variation-settings:
     "slnt" 0;
-
-    padding: 0;
-    margin: 0;
 }
 .blueTitle{
     margin-left: 3vh;
-    display: flex;
     color: #3793FF;
+}
+
+@media screen and (max-width: 768px) {
+    .mainContentWho{
+        height: 10vw;
+    }
+    .infosWho{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 10vw;
+        font-size: 2vw;
+    }
+    .titleWho{
+        font-size: 2vw;
+    }
+    .divTitle{
+        justify-content: center;
+    }
 }

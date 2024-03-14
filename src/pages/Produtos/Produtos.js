@@ -18,7 +18,14 @@ function Produtos() {
 
   return (
     <div className="produtosPage">
-      <MainContentComp title={categoriaUpper}/>
+        <div className="quadrado1Product"></div>
+        <div className="quadrado2Product"></div>
+        <div className="quadrado3Product"></div>
+        <div className="quadrado4Product"></div>
+      <MainContentComp/>
+      <div className="tituloDoProduto">
+        <h1 className='titleProduct'>{categoriaUpper}</h1>
+      </div>
       <div className="cardsProdutosDiv">
         {Globais.data.map(function(item){
           if(item.categoria === categoria){

@@ -11,7 +11,7 @@
     font-family: "Arvo", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 100px;
+    font-size: 6.9vw;
     margin-bottom: 20px;
 }
 
@@ -21,8 +21,8 @@
     justify-content: space-around;
     align-items: center;
     background-color: #173565;
-    height: 15vh;
-    width: 80vh;
+    height: 8.5vw;
+    width: 50vw;
     margin-bottom: 40px;
     border-radius: 16px;
 
@@ -33,7 +33,7 @@
     font-family: "Arvo", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 60px;
+    font-size: 4.1vw;
     margin: 0;
 }
 .itemp{
@@ -46,31 +46,53 @@
 
     color: white;
     margin: 0;
+    font-size: 1.5vw;
 }
 
 
 .quadrado1XP{
     position: absolute;
-    z-index: 1;
-    left: 150vh;
-    top: 230vh;
-    width: 20vh;
-    height: 20vh;
+    left: 85vw;
+    top: 145vw;
+    width: 11vw;
+    height: 11vw;
     background-color: rgba(79, 96, 155, 0.3);
 }
 .quadrado2XP{
     position: absolute;
-    z-index: 1;
-    left: 135vh;
-    top: 245vh;
-    width: 20vh;
-    height: 20vh;
+    left: 80vw;
+    top: 138vw;
+    width: 11vw;
+    height: 11vw;
     background-color: rgba(47, 66, 131, 0.3);
 }
 .quadrado3XP{
     background-color: rgba(47, 66, 131, 0.2);
-    width: 20vh;
-    height: 20vh;
+    width: 11vw;
+    height: 11vw;
     position: absolute;
-    left: 15vh;
+    left: 5vw;
+    top: 155vw; 
+}
+
+@media screen and (max-width: 768px){
+    .itemXP{
+        width: 75vw;
+        height: 16vw;
+    }
+    .itemtitle{
+        font-size: 8vw;
+    }
+    .itemp{
+        font-size: 3vw;
+    }
+    .quadrado1XP{
+        top: 250vw;
+    }
+    .quadrado2XP{
+        top: 230vw
+    }
+    .quadrado3XP{
+        top: 280vw;
+    }
 }

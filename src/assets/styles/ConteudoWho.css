@@ -23,7 +23,7 @@
     font-family: "Arvo", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 60px;
+    font-size: 4.1vw;
     margin: 0;
 }
 .subtitleLeft{
@@ -31,7 +31,7 @@
     font-family: "Arvo", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 30px;
+    font-size: 2vw;
     margin: 0;
 }
 
@@ -51,7 +51,7 @@
 }
 .textoContentp{
     color: white;
-    font-size: 20px;
+    font-size: 1.3vw;
     text-align: center;
 
     font-family: "Inter", sans-serif;
@@ -70,7 +70,7 @@
     justify-content: space-around;
 }
 .itemContent{
-    width: 25vh;
+    width: 15vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -94,4 +94,39 @@
     font-style: normal;
     font-variation-settings:
     "slnt" 0;
+}
+@media screen and (max-width: 768px) {
+    .conteudoWho{
+        flex-direction: column;
+        height: auto;
+    }
+    .leftContentWho{
+        flex-direction: row;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #293C6B;
+        height: 30vw;
+    }
+    .titleLeft{
+        font-size: 7vw;
+    }
+    .subtitleLeft{
+        font-size: 4vw;
+    }
+    .rightContentWho{
+        width: 100%;
+        height: auto;
+    }
+    .textoContentp{
+        font-size: 4vw;
+    }
+    .itensContent{
+        margin-top: 5vh;
+    }
+    .itemContent{
+        width: 30vw;
+    }
+    .textItem{
+        font-size: 3vw;
+    }
 }

@@ -19,7 +19,7 @@
     width: 20%;
 }
 .slogan{
-    max-width: 666px;
+    max-width: 82vh;
 }
 .blue{
     color: #3793FF;
@@ -34,7 +34,7 @@
     "slnt" 0;
     /* Resto do estilo */
     color: white;
-    font-size: 80px;
+    font-size: 5.5vw;
 }
 .btnCatalogo{
     /* carregamento da fonte */
@@ -45,10 +45,10 @@
     font-variation-settings:
     "slnt" 0;
     /* Resto do estilo */
-    font-size: 36px;
-    width: 35vh;
-    height: 8.5vh;
-    border-radius: 50px;
+    font-size: 2.5vw;
+    width: 20vw;
+    height: 5vw;
+    border-radius: 5vw;
     cursor:  pointer;
     color: white;
     background-image: linear-gradient(to right, #226AF4, #173565);
@@ -56,8 +56,29 @@
     transition: 0.5s;
 }
 .btnCatalogo:hover{
-    width: 38vh;
-    height: 10vh;
+    width: 22vw;
+    height: 6vw;
     color: rgb(202, 201, 201);
-    font-size: 38px;
+    font-size: 2.8vw;
+}
+
+@media screen and (max-width: 768px){
+    .maincontent{
+        flex-direction: column;
+        padding-top: 5vh;
+    }
+    .rightContent{
+        width: 100%;
+    }
+    .leftContent{
+        align-items: center;
+    }
+    .btnCatalogo{
+        font-size: 4vw;
+        width: 30vw;
+        height: 10vw;
+    }
+    .slogan-text{
+        font-size: 8vw;
+    }
 }

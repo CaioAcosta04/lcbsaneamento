@@ -10,6 +10,11 @@ import HideMenu from './HideMenu';
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = ()=>{
+    setShowMenu(!showMenu);
+  }
+
     function mudarMenu(){
         setIsOpen((prev)=>!prev);
     }
@@ -28,7 +33,7 @@ function Header() {
         </div>
         </a>
 
-        <nav className='menu'>
+        <nav className={`${'menu'} ${ showMenu ? 'show' : ''}`}>
             <ul className='menuul'>
                 <a href="/"><li className='item'>Home</li></a>
                 <a href="/quemsomos"><li className='item'>Quem Somos?</li></a>
@@ -42,6 +47,15 @@ function Header() {
                 <a href="/contato"><li className='item'>Contato</li></a>
             </ul>
         </nav>
+
+        <div 
+        className="menuButton"
+        onClick={toggleMenu}
+        >
+            <span className='linha'></span>
+            <span className='linha'></span>
+            <span className='linha'></span>
+        </div>
     </div>
   )
 }

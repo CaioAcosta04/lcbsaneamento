@@ -8,5 +8,12 @@ body{
     padding: 0;
     background-image: url('./assets/images/BACKGROUND1.png');
     background-size: cover;
-    height: 100vh;
+    height: 58vw;
+}
+
+@media screen and (max-width: 768px) {
+    .mainContent{
+        background-image: none;
+        margin-bottom: 70vw;
+    }
 }

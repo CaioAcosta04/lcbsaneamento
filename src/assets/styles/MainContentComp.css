@@ -1,7 +1,7 @@
 .mainContentWho{
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     background-image: url('../images/BACKGROUND1.png');
     background-size: cover;
 }
@@ -9,7 +9,7 @@
     margin-left: 10vh;
     display: flex;
     position: absolute;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .divLogo{
@@ -29,7 +29,7 @@
 }
 .titleWho{
     color: white;
-    font-size: 13vh;
+    font-size: 7.5vw;
 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -45,4 +45,20 @@
     margin-left: 3vh;
     display: flex;
     color: #3793FF;
+}
+
+@media screen and (max-width: 768px) {
+    .infosWho{
+        margin: 0;
+        margin-top: 19vw;
+    }
+    .mainContentWho{
+        height: 25vh;
+    }
+    .divTitle{
+        justify-content: center;
+    }
+    .titleWho{
+        font-size: 10vw;
+    }
 }

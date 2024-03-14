@@ -5,4 +5,72 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    z-index: 2;
+}
+.tituloDoProduto{
+    width: 100%;
+    text-align: center;
+}
+
+.quadrado1Product{
+    position: absolute;
+    z-index: 1;
+    left: 2vw;
+    top: 48vw;
+    width: 11vw;
+    height: 11vw;
+    background-color: rgba(79, 96, 155, 0.3);
+}
+.quadrado2Product{
+    position: absolute;
+    z-index: 1;
+    left: 7vw;
+    top: 50vw;
+    width: 11vw;
+    height: 11vw;
+    background-color: rgba(49, 63, 113, 0.3);
+}
+.quadrado3Product{
+    position: absolute;
+    z-index: 1;
+    left: 84vw;
+    top: 12vw;
+    width: 11vw;
+    height: 11vw;
+    background-color: rgba(79, 96, 155, 0.3);
+}
+.quadrado4Product{
+    position: absolute;
+    z-index: 1;
+    left: 75vw;
+    top: 15vw;
+    width: 11vw;
+    height: 11vw;
+    background-color: rgba(27, 43, 102, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .cardsProdutosDiv{
+        flex-direction: column;
+    }
+    .quadrado1Product{
+        width: 15vw;
+        height: 15vw;
+        top: 57vw;
+    }
+    .quadrado2Product{
+        width: 15vw;
+        height: 15vw;
+        top: 63vw;
+    }
+    .quadrado3Product{
+        width: 15vw;
+        height: 15vw;
+        top: 89vw;
+    }
+    .quadrado4Product{
+        width: 15vw;
+        height: 15vw;
+        top: 99vw;
+    }
 }

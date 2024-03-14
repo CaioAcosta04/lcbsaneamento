@@ -1,6 +1,5 @@
 .Carrossel{
-    width: 60vh;
-    height: 60vh;
+    width: 33vw;
     margin-top: 10vh;
     margin-right: 10vh;
 }
@@ -9,10 +8,21 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    border-radius: 30px;
 }
 .imgCard{
     width: auto;
     height: 50vh;
     margin-left: 5vh;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .Carrossel{
+        width: 42vw;
+        margin: 5vh 0 auto;
+    }
+    .imgCard{ 
+        height: 35vw;
+        margin-left: 4vw;
+    }
 }

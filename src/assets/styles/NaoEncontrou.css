@@ -19,10 +19,29 @@
     text-align: left;
 }
 .tituloCatalogo{
-    font-size: 50px;
+    font-size: 3.4vw;
     margin: 0;
 }
 .subtituloCatalogo{
-    font-size: 30px;
+    font-size: 2vw;
     margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .containerNaoEncontrou{
+        flex-direction: column;
+        justify-content: center;
+        height: 75vw;
+        margin: 0;
+        align-items: center;
+        gap: 10vw;
+    }
+    .tituloCatalogo{
+        font-size: 10vw;
+        text-align: center;
+    }
+    .subtituloCatalogo{
+        font-size: 5vw;
+        text-align: center;
+    }
 }

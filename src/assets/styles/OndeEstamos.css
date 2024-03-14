@@ -4,13 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 65vw;
     margin-top: -10vh;
 }
 .info{
     display: flex;
     justify-content: space-around;
-    width: 150vh;
+    width: 100%;
     align-items: center;
 }
 .ondeTitle{
@@ -18,11 +18,11 @@
     font-family: "Arvo", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 90px;
+    font-size: 6.25vw;
 }
 .endereco{
     color: white;
-    font-size: 30px;
+    font-size: 2vw;
 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -32,7 +32,21 @@
     "slnt" 0;
 }
 
-.divMapa{
-    width: 500px;
-    height: 300px;
+@media screen and (max-width: 768px) {
+    .ondeContainer{
+        margin-top: 0;
+        margin-bottom: 10vw;
+    }
+    .ondeTitle{
+        font-size: 7vw;
+        margin: 0;
+        margin-top: 10vw;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .endereco{
+        font-size: 5vw;
+        text-align: center;
+    }
 }

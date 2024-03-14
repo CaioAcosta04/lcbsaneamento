@@ -11,8 +11,19 @@
     height: auto;
     background-color: rgba(20, 29, 52, 0.95);
     padding: 0;
-    width: 30vh;
+    width: auto;
     border: none;
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15vh;
+    padding: 2vh;
+}
+
+.leftContentHide{
+    border-right: 1px solid #293C6B;
+    padding-right: 2vh;
+    margin-right: 2vh;
 }
 
 .hideMenuItem{
@@ -24,7 +35,7 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;

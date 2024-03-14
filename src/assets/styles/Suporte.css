@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    height: 800px;
+    height: 73vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 13vw;
     background-color: transparent;
 }
 .titulo{
@@ -19,7 +19,7 @@
     font-family: "Arvo", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 100px;
+    font-size: 8vw;
 }
 
 .suporte-container{
@@ -38,19 +38,19 @@
     filter: drop-shadow(10px 0 50px rgba(4,120,255,62));
 }
 .imgSuporte{
-    width: 480px;
+    width: 34vw;
+    margin-left: 5vw;
 }
 
 .textoDiv{
-    max-width: 600px;
+    max-width: 42vw;
 }
 .underline{
-    /*background-image: linear-gradient(to right, #2892cf, rgba(50, 161, 226, 0.27));*/
-    text-shadow: rgb(30, 101, 255) 5px 0 30px;;
+    text-shadow: rgb(30, 101, 255) 5px 0 1vw;;
 }
 .textSuporte{
     color: white;
-    font-size: 30px;
+    font-size: 2vw;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -59,45 +59,82 @@
     "slnt" 0;
 }
 
-.btnConhecer:hover{
-    width: 38vh;
-    height: 9vh;
-    font-size: 32px;
-}
-
 .quadrado1{
     position: absolute;
     z-index: 1;
-    left: 37px;
-    top: 130vh;
-    width: 20vh;
-    height: 20vh;
+    left: 4vw;
+    top: 80vw;
+    width: 11vw;
+    height: 11vw;
     background-color: rgba(79, 96, 155, 0.3);
 }
 .quadrado2{
     position: absolute;
     z-index: 1;
-    left: 280px;
-    top: 115vh;
-    width: 20vh;
-    height: 20vh;
+    left: 16vw;
+    top: 70vw;
+    width: 11vw;
+    height: 11vw;
     background-color: rgba(47, 66, 131, 0.3);
 }
 .quadrado3{
     position: absolute;
     z-index: 1;
-    left: 37px;
-    top: 190vh;
-    width: 20vh;
-    height: 20vh;
+    left: 4vw;
+    top: 110vw;
+    width: 11vw;
+    height: 11vw;
     background-color: rgba(38, 27, 161, 0.3);
 }
 .quadrado4{
     position: absolute;
     z-index: 1;
-    left: 180px;
-    top: 180vh;
-    width: 20vh;
-    height: 20vh;
+    left: 16vw;
+    top: 118vw;
+    width: 11vw;
+    height: 11vw;
     background-color: rgba(79, 96, 155, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        margin-top: 28vh;
+        margin-bottom: 10vw;
+    }
+    .rightContentt{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    .suporte-container{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .quadrado1{
+        top: 140vw;
+    }
+    .quadrado2{
+        top: 130vw;
+    }
+    .quadrado3{
+        top: 173vw;
+    }
+    .quadrado4{
+        top: 180vw;
+    }
+    .textSuporte{
+        font-size: 6vw;
+        width: 90vw;
+        text-align: center;
+        margin: 0;
+    }
+    .imgSuporte{
+        display: none;
+    }
+    .textoDiv{
+        width: 80vw;
+        margin-left: 5vw;
+    }
 }
