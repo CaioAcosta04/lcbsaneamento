@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import '../assets/styles/ContentContato.css';
 
 function ContentContato() {
+    const [textForm, setTextForm] = useState('');
+
+    function textChanger(event){
+        setTextForm(event.target.value);
+    }
+
   return (
     <div className="contactContent">
         <div className="infosContato">
@@ -15,11 +21,16 @@ function ContentContato() {
                     </div>
                     <div class="form-group">
                     <label for="textarea">Sua mensagem</label>
-                    <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
+                    <textarea onChange={textChanger} required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
                     </div>
-                    <button type="submit" class="form-submit-btn">ENVIAR</button>
+                    <a className='linkEmailEnviar' href={'mailto:caioacosta4@gmail.com?subject=Cliente vindo pelo site&body='+textForm}>
+                        <div className="emailEnviar">
+                            <p>ENVIAR EMAIL</p>
+                        </div>
+                    </a>
                 </form>
             </div>
+            
             </div>
             <div className="rightContentContact">
                 <div className="conteudo">

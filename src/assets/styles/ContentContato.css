@@ -32,6 +32,37 @@
 .tamanho{
     width: 70vh;
 }
+.emailEnviar{
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1vw;
+  background-color: #141D34;
+  border-radius: 5vw;
+  transition: 0.5s;
+}
+.emailEnviar:hover{
+  cursor: pointer;
+  font-size: 1.4vw;
+  width: 38%;
+}
+.linkEmailEnviar {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3vw;
+  transition: 0.5s;
+}
+.linkEmailEnviar p{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+  "slnt" 0;
+}
 
 
 

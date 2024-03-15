@@ -38,7 +38,7 @@
 }
 .menuul{
     display: flex;
-    width: 70vh;
+    width: 40vw;
     justify-content: space-around;
     align-items: center;
 }
@@ -50,6 +50,7 @@
     transition: 0.5s;
     padding: 10px;
     border-radius: 16px;
+    text-align: center;
 }
 .menu a:hover{
     background-color: #2536612c;

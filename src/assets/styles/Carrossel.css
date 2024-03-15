@@ -1,7 +1,8 @@
 .Carrossel{
     width: 33vw;
     margin-top: 10vh;
-    margin-right: 10vh;
+    margin-right: 5vw;
+    
 }
 .card{
     display: flex;
@@ -11,7 +12,7 @@
 }
 .imgCard{
     width: auto;
-    height: 50vh;
+    height: 30vw;
     margin-left: 5vh;
     margin: auto;
 }
