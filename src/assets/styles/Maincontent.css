@@ -17,9 +17,13 @@
     justify-content: center;
     align-items: center;
     width: 20%;
+    opacity: 0;
+    transform: translateX(30vw);
 }
 .slogan{
     max-width: 82vh;
+    opacity: 0;
+    transform: translateX(-30vw);
 }
 .blue{
     color: #3793FF;
@@ -54,6 +58,8 @@
     background-image: linear-gradient(to right, #226AF4, #173565);
     border: none;
     transition: 0.5s;
+
+    opacity: 0;
 }
 .btnCatalogo:hover{
     width: 22vw;

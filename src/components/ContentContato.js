@@ -33,7 +33,7 @@ function ContentContato() {
             
             </div>
             <div className="rightContentContact">
-                <div className="conteudo">
+                <div className="conteudoW">
                     <div className="infos tamanho">
                         <p className='itemFale'>Tel: (19) 3849-7710</p>
                         <p className='itemFale'>Email: comercial@lcbsaneamento.com.br</p>

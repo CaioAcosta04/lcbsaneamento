@@ -6,6 +6,8 @@
     align-items: center;
     height: 65vw;
     margin-top: -10vh;
+    opacity: 0;
+    transform: translateX(-40vw) rotate(-40deg);
 }
 .info{
     display: flex;

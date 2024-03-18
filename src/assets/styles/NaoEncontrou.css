@@ -26,6 +26,31 @@
     font-size: 2vw;
     margin: 0;
 }
+.btnCatalogo2{
+    /* carregamento da fonte */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    /* Resto do estilo */
+    font-size: 2.5vw;
+    width: 20vw;
+    height: 5vw;
+    border-radius: 5vw;
+    cursor:  pointer;
+    color: white;
+    background-image: linear-gradient(to right, #226AF4, #173565);
+    border: none;
+    transition: 0.5s;
+}
+.btnCatalogo2:hover{
+    width: 22vw;
+    height: 6vw;
+    color: rgb(202, 201, 201);
+    font-size: 2.8vw;
+}
 
 @media screen and (max-width: 768px) {
     .containerNaoEncontrou{
@@ -43,5 +68,10 @@
     .subtituloCatalogo{
         font-size: 5vw;
         text-align: center;
+    }
+    .btnCatalogo2{
+        font-size: 4vw;
+        width: 30vw;
+        height: 10vw;
     }
 }

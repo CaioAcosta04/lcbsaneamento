@@ -1,8 +1,44 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 
 import '../assets/styles/Fale.css';
 
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 function FaleConosco() {
+    useLayoutEffect(()=>{
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.to(".tituloFale",{
+            opacity: 1,
+            y:0,
+            scrollTrigger: {
+                trigger: ".faleConoscoDiv",
+                start: "top 400vh",
+            }
+        })
+
+        return()=>{
+            gsap.killTweensOf(".tituloFale")
+        }
+    })
+    useLayoutEffect(()=>{
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.to(".conteudo",{
+            opacity: 1,
+            y:0,
+            scrollTrigger: {
+                trigger: ".faleConoscoDiv",
+                start: "top 400vh",
+            }
+        })
+
+        return()=>{
+            gsap.killTweensOf(".conteudo")
+        }
+    })
+    
   return (
     <div className="faleConoscoDiv">
         <div className="tituloFale">

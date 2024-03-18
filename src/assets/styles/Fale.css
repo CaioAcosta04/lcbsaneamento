@@ -6,12 +6,16 @@
     justify-content: center;
     margin-top: -15vw;
     background-image: linear-gradient(to bottom, #141D34, #000000);
+    overflow: hidden;
 }
 .conteudo{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    opacity: 0;
+    transform: translateY(180vw);
 }
 .tituloFale{
     color: white;
@@ -20,6 +24,9 @@
     font-style: normal;
     font-size: 2.7vw;
     text-align: center;
+
+    opacity: 0;
+    transform: translateY(50vw);
 }
 .infos{
     display: flex;

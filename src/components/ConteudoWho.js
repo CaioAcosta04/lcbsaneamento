@@ -2,20 +2,22 @@ import React from 'react'
 
 import '../assets/styles/ConteudoWho.css';
 
+import CountUp from 'react-countup';
+
 function ConteudoWho() {
   return (
     <div className="conteudoWho">
         <div className="leftContentWho">
             <div className="itemLeft">
-                <p className='titleLeft'>+35</p>
+                <p className='titleLeft'>+<CountUp className='counter' start={0} end={35} duration={3} delay={0.5}/></p>
                 <p className='subtitleLeft'>ANOS</p>
             </div>
             <div className="itemLeft">
-                <p className='titleLeft'>+1000</p>
+                <p className='titleLeft'>+<CountUp className='counter' start={0} end={1000} duration={3} delay={0.5}/></p>
                 <p className='subtitleLeft'>CLIENTES</p>
             </div>
             <div className="itemLeft">
-                <p className='titleLeft'>+1000</p>
+                <p className='titleLeft'>+<CountUp className='counter' start={0} end={100} duration={3} delay={0.5}/></p>
                 <p className='subtitleLeft'>PRODUTOS</p>
             </div>
         </div>
