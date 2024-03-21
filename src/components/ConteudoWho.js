@@ -13,7 +13,7 @@ function ConteudoWho() {
                 <p className='subtitleLeft'>ANOS</p>
             </div>
             <div className="itemLeft">
-                <p className='titleLeft'>+<CountUp className='counter' start={0} end={1000} duration={3} delay={0.5}/></p>
+                <p className='titleLeft'>+<CountUp className='counter' start={0} separator='' end={1000} duration={3} delay={0.5}/></p>
                 <p className='subtitleLeft'>CLIENTES</p>
             </div>
             <div className="itemLeft">

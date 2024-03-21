@@ -1,8 +1,8 @@
 .mainContentWho{
     width: 100%;
     height: 30vw;
-    background-image: url('../images/BACKGROUND1.png');
-    background-size: cover;
+    background-image: url('../images/BGONE.png');
+    background-size: auto;
     display: flex;
     justify-content: flex-end;
 }

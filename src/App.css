@@ -6,8 +6,8 @@ body{
 .mainContent{
     margin: 0;
     padding: 0;
-    background-image: url('./assets/images/BACKGROUND1.png');
-    background-size: cover;
+    background-image: url('./assets/images/BGONE.png');
+    background-size:contain;
     height: 58vw;
 }
 

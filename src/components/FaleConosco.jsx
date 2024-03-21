@@ -14,7 +14,7 @@ function FaleConosco() {
             y:0,
             scrollTrigger: {
                 trigger: ".faleConoscoDiv",
-                start: "top 400vh",
+                start: "top 550vh",
             }
         })
 
@@ -30,7 +30,7 @@ function FaleConosco() {
             y:0,
             scrollTrigger: {
                 trigger: ".faleConoscoDiv",
-                start: "top 400vh",
+                start: "top 550vh",
             }
         })
 

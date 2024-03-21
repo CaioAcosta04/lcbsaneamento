@@ -1,7 +1,7 @@
 import React, { useLayoutEffect } from 'react';
 
 import '../assets/styles/Suporte.css';
-import imagem from '../assets/images/imagemSuporte.jpg';
+import imagem from '../assets/images/suporteimg.jpeg';
 import SampleButton from './SampleButton';
 
 import { gsap } from 'gsap';
