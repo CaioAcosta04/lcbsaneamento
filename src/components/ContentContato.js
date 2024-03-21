@@ -23,7 +23,7 @@ function ContentContato() {
                     <label for="textarea">Sua mensagem</label>
                     <textarea onChange={textChanger} required="" cols="50" rows="10" id="textarea" name="textarea"></textarea>
                     </div>
-                    <a className='linkEmailEnviar' href={'mailto:caioacosta4@gmail.com?subject=Cliente vindo pelo site&body='+textForm}>
+                    <a className='linkEmailEnviar' href={'mailto:comercial@lcbsaneamento.com.br?subject=Cliente vindo pelo site&body='+textForm}>
                         <div className="emailEnviar">
                             <p>ENVIAR EMAIL</p>
                         </div>
