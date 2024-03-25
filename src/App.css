@@ -10,10 +10,36 @@ body{
     background-size:contain;
     height: 58vw;
 }
+.floatingWpp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    text-decoration: none;
+    color: black;
+    right: 1vw;
+    bottom: 5vw;
+    background-color: #88EA92;
+    padding: 0.6vw;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    transition: 0.5s;
+}
+.floatingWpp:hover{
+    cursor: pointer;
+    width: 2.2vw;
+    height: 2.2vw;
+}
 
 @media screen and (max-width: 768px) {
     .mainContent{
         background-image: none;
         margin-bottom: 70vw;
+    }
+    .floatingWpp{
+        width: 15vw;
+        height: 15vw;
     }
 }
